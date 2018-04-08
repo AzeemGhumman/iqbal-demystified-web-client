@@ -1,1 +1,19 @@
 Readme file for this project
+
+
+REST API:
+To get the list of lists:
+http://icanmakemyownapp.com/iqbal/updated_scripts/get-list-of-lists.php
+
+Along with book names, the call above will give you all the ListIDs.
+To get the contents of a particular list of book, use that ListId to get data from this link:
+http://icanmakemyownapp.com/iqbal/updated_scripts/get-list.php?listId={listID for this list}
+
+The response of the get-list call contains the names and IDs of each poem in that book.
+To get the contents of a specific poem, use the PoemID to get poem data from this link:
+http://icanmakemyownapp.com/iqbal/updated_scripts/get-poem.php?poemId={poemID for the selected poem}
+
+Note: I have not ported all the poems to the API based model yet.
+Currently, there is only 1 poem uploaded. poemId = 2_1
+Please use this for testing:
+http://icanmakemyownapp.com/iqbal/updated_scripts/get-poem.php?poemId=2_1
