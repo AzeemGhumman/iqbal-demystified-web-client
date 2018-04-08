@@ -14,4 +14,8 @@ app.get('/status', (req, res) => {
   })
 })
 
+app.get('/poem', (req, res) => {
+  res.send('Fetching contents of poem: ' + req.poemId)
+})
+
 app.listen(process.env.PORT || 8081)
