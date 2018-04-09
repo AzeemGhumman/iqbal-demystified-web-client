@@ -17,3 +17,5 @@ Note: I have not ported all the poems to the API based model yet.
 Currently, there is only 1 poem uploaded. poemId = 2_1
 Please use this for testing:
 http://icanmakemyownapp.com/iqbal/updated_scripts/get-poem.php?poemId=2_1
+
+Note: All responses are in valid YAML format
