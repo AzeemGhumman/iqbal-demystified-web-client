@@ -13,9 +13,10 @@ The response of the get-list call contains the names and IDs of each poem in tha
 To get the contents of a specific poem, use the PoemID to get poem data from this link:
 http://icanmakemyownapp.com/iqbal/updated_scripts/get-poem.php?poemId={poemID for the selected poem}
 
-Note: I have not ported all the poems to the API based model yet.
-Currently, there is only 1 poem uploaded. poemId = 2_1
-Please use this for testing:
+Example of List YAML - (Book: بال جبریل)
+http://icanmakemyownapp.com/iqbal/updated_scripts/get-list.php?listId=List_2
+
+Example of Poem YAML - (Poem: ميري نوائے شوق سے شور حريم ذات ميں) 
 http://icanmakemyownapp.com/iqbal/updated_scripts/get-poem.php?poemId=2_1
 
 Note: All responses are in valid YAML format
