@@ -5,11 +5,11 @@ import App from './App'
 import router from './router'
 import VueResource from 'vue-resource'
 
-const YAML = require('yamljs')
-
 Vue.use(VueResource)
 
 Vue.config.productionTip = false
+
+const YAML = require('yamljs')
 
 /* eslint-disable no-new */
 new Vue({

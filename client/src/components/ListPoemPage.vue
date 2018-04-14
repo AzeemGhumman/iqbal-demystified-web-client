@@ -22,7 +22,7 @@ require('../assets/css/poem_page.css')
 export default {
   data () {
     return {
-      poemList : []
+      poemList: []
     }
   },
   created () {

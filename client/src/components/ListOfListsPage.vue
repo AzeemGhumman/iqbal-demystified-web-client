@@ -17,7 +17,7 @@ require('../assets/css/poem_page.css')
 export default {
   data () {
     return {
-      listOfLists : []
+      listOfLists: []
     }
   },
   created () {
@@ -27,6 +27,7 @@ export default {
     // TODO: Use async and await to get data from the server
     async getListOfLists () {
       const response = await StaticContentService.getListOfLists()
+
       var yamlObject = YAML.parse(response.data)
       this.listOfLists = yamlObject
       console.log(yamlObject)
