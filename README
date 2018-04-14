@@ -1,7 +1,11 @@
-Readme file for this project
+# How to run
+Download repository
+Run the following command
+```console
+npm run dev
+```
 
-
-REST API:
+# REST API:
 To get the list of lists:
 http://icanmakemyownapp.com/iqbal/updated_scripts/get-list-of-lists.php
 
@@ -14,9 +18,9 @@ To get the contents of a specific poem, use the PoemID to get poem data from thi
 http://icanmakemyownapp.com/iqbal/updated_scripts/get-poem.php?poemId={poemID for the selected poem}
 
 Example of List YAML - (Book: بال جبریل)
-http://icanmakemyownapp.com/iqbal/updated_scripts/get-list.php?listId=List_2
+http://icanmakemyownapp.com/iqbal/updated_scripts/get-list.php?listId=List_002
 
 Example of Poem YAML - (Poem: ميري نوائے شوق سے شور حريم ذات ميں) 
-http://icanmakemyownapp.com/iqbal/updated_scripts/get-poem.php?poemId=2_1
+http://icanmakemyownapp.com/iqbal/updated_scripts/get-poem.php?poemId=002_001
 
 Note: All responses are in valid YAML format
