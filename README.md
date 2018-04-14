@@ -8,9 +8,9 @@ Running on your machine
 
 1 - Clone repository
 
-2 - Make sure you have nodejs installed on your machine
+2 - Make sure you have **nodejs** installed on your machine
 
-3 - Run the following command
+3 - Run the following command from the directory
 ```
 $ npm run dev
 ```
