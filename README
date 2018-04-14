@@ -1,11 +1,21 @@
-# How to run
-Download repository
-Run the following command
-```console
-npm run dev
+Iqbal Demystified Web Client
+======================
+
+TODO: Add introduction of the project here. Which technologies are used. How is the project structured, etc.
+
+Running on your machine
+--------------------------
+
+1 - Download repository
+2 - Make sure you have nodejs installed on your machine
+3 - Run the following command
+```
+$ npm run dev
 ```
 
-# REST API:
+REST API
+--------------------------
+
 To get the list of lists:
 http://icanmakemyownapp.com/iqbal/updated_scripts/get-list-of-lists.php
 
