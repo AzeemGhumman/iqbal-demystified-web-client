@@ -32,7 +32,7 @@ http://icanmakemyownapp.com/iqbal/updated_scripts/get-list-of-lists.php
 Along with book names, the call above will return all the ListIDs.
 
 
-### List
+### List of Poems
 To get the contents of a particular list of book, use that ListId to get data from this link:
 
 http://icanmakemyownapp.com/iqbal/updated_scripts/get-list.php?listId={listID for this list}
