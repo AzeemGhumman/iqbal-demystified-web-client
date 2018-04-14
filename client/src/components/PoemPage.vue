@@ -69,9 +69,6 @@
 <script>
 import StaticContentService from '@/services/StaticContentService'
 
-// require('../../node_modules/bootstrap/dist/css/bootstrap.min.css')
-// require('../../node_modules/bootstrap/css/bootstrap.min.css')
-// require('../../node_modules/font-awesome/css/font-awesome.min.css')
 require('../assets/css/poem_page.css')
 
 export default {
@@ -82,18 +79,14 @@ export default {
     }
   },
   created () {
-    this.getPoem()
+    this.getPoem(this.$route.query.poemId)
   },
   methods: {
-    // TODO: Use async and await to get data from the server
-    async getPoem () {
-      const response = await StaticContentService.getPoem('2_1')
-      var contents = response.data
-      const YAML = require('yamljs')
-      var yamlObject = YAML.parse(contents)
+    async getPoem (poemId) {
+      const response = await StaticContentService.getPoem(poemId)
+      var yamlObject = YAML.parse(response.data)
       this.poemDetail = yamlObject
       console.log(yamlObject)
-      // console.log(this.poemDetail.heading[1].text)
     }
   }
 }

@@ -5,6 +5,8 @@ import App from './App'
 import router from './router'
 import VueResource from 'vue-resource'
 
+const YAML = require('yamljs')
+
 Vue.use(VueResource)
 
 Vue.config.productionTip = false
